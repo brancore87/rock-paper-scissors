@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HCJ</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="app">
+    <main class="container__main">
+      <h1 class="title">Rock Paper Scissors</h1>
+      <div class="buttons">
+        <button onclick="playGame('rock')" class="button button__rock">
+          ✊🏻
+        </button>
+        <button onclick="playGame('paper')" class="button button__paper">
+          🖐🏻
+        </button>
+        <button onclick="playGame('scissors')" class="button button__scissors">
+          ✌🏻
+        </button>
+      </div>
+
+      <p class="js-result result">You win</p>
+      <p class="js-moves moves">
+        <span class="move-icon">You✊🏻</span>
+        <span class="move-icon">🖐🏻Com</span>
+      </p>
+      <p class="js-score"></p>
+
+      <button onclick="reset()" class="reset-button">❌</button>
+    </main>
+    <footer class="footer">
+      &copy;2024 Brandon N Sangma | All rights reserved
+    </footer>
+  </body>
+</html>
